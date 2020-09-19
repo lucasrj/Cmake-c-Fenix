@@ -1,5 +1,4 @@
-{
-    "$schema": "https://raw.githubusercontent.com/lucasrj/Cmake-c-Fenix/master/fenix.json",
+{   
     "author": "lucasrj",
     "repoName": "My new Fenix repository!",
     "repoUrl": "https://raw.githubusercontent.com/lucasrj/Cmake-c-Fenix/master/",
