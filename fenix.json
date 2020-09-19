@@ -71,7 +71,7 @@
                     },
                     {
                         "from": "class/defaultClass.h",
-                        "to": "src/"<$ fnx.render('class') $>".h"
+                        "to": "src/""<$ fnx.render('class') $>"".h"
                     }
                 ]
             },
@@ -79,7 +79,7 @@
                 {
                     "id": "class",
                     "title": "class",
-                    "description": "Enter your name here",
+                    "description": "Enter your class name here",
                     "default": "class"
                 }
             ]
