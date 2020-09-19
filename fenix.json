@@ -24,7 +24,7 @@
                     {
                         "from": "Mainfiles/wxWighets.h",
                         "to": "src/main.h"
-                    }
+                    },
                     {
                         "from": "Mainfiles/wxWighets.cpp",
                         "to": "src/main.cpp"
