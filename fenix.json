@@ -71,7 +71,7 @@
                     },
                     {
                         "from": "class/defaultClass.h",
-                        "to": "src/""<$ fnx.render('class') $>"".h"
+                        "to": "src/"<$ fnx.render('class') $>".h"
                     }
                 ]
             },
