@@ -79,7 +79,8 @@
                 {
                     "id": "class",
                     "title": "class",
-                    "description": "Enter your name here"
+                    "description": "Enter your name here",
+                    "default": "class"
                 }
             ]
         }
