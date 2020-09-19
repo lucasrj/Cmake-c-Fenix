@@ -1,0 +1,41 @@
+{
+    "author": "lucasrj",
+    "repoName": "My new Fenix repository!",
+    "version": 1.0,
+    "templates": [
+        {
+            "id": "C++ Cmake",
+            "displayName": "C++ Cmake",
+            "language": "c++",
+            "description": "makes a c++ Cmake project",
+            "category": ["Programming"],
+            "directories": [
+                "src",
+                "build"
+            ],
+            "files": {
+                "create": [
+                    "blank.txt"
+                ],
+                "download": [
+                    {
+                        "from": "remote-file.txt",
+                        "to": "local.txt"
+                    }
+                ],
+                "open": [
+                    "blank.txt"
+                ]
+            },
+            "command": "echo Hello world!",
+            "environment": [
+                {
+                    "id": "author",
+                    "title": "Author",
+                    "description": "Enter your name here",
+                    "default": "Me"
+                }
+            ]
+        }
+    ]
+}
