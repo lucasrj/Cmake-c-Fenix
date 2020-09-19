@@ -1,0 +1,17 @@
+cmake_minimum_required(VERSION 2.8)
+project(mysql_test)
+
+file(GLOB_RECURSE SRC_FILES
+    *.cpp
+    *.h
+)
+
+add_executable(${PROJECT_NAME} ${SRC_FILES})
+
+LINK_DIRECTORIES(//usr/local/lib)
+LINK_DIRECTORIES(//usr/local/lib/x86_64-linux-gnu)
+
+TARGET_LINK_LIBRARIES(${PROJECT_NAME}  mysqlcppconn8.so.2)
+TARGET_LINK_LIBRARIES(${PROJECT_NAME}  mysqlclient.so)
+
+include_directories(/usr/local/include/cppconn)
