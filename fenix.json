@@ -1,8 +1,37 @@
 {
+    "$schema": "https://raw.githubusercontent.com/lucasrj/Cmake-c-Fenix/master/fenix.json",
     "author": "lucasrj",
     "repoName": "My new Fenix repository!",
+    "repoUrl": "https://raw.githubusercontent.com/lucasrj/Cmake-c-Fenix/master/",
     "version": 1.0,
     "templates": [
+        {
+            "id": "C++ Cmake with wxWightes",
+            "displayName": "C++ Cmake w/wxWightes",
+            "language": "c++",
+            "description": "makes a c++ Cmake project with wxWightes",
+            "category": ["Programming"],
+            "directories": [
+                "src",
+                "build"
+            ],
+            "files": {
+                "download": [
+                    {
+                        "from": "CmakeFiles/CMakeWithWxWighets.txt",
+                        "to": "src/CMakeLists.txt"
+                    },
+                    {
+                        "from": "Mainfiles/wxWighets.h",
+                        "to": "src/main.h"
+                    }
+                    {
+                        "from": "Mainfiles/wxWighets.cpp",
+                        "to": "src/main.cpp"
+                    }
+                ]
+            }
+        },
         {
             "id": "C++ Cmake",
             "displayName": "C++ Cmake",
@@ -14,28 +43,17 @@
                 "build"
             ],
             "files": {
-                "create": [
-                    "blank.txt"
-                ],
                 "download": [
                     {
-                        "from": "remote-file.txt",
-                        "to": "local.txt"
+                        "from": "CmakeFiles/cmakebase.txt",
+                        "to": "src/CMakeLists.txt"
+                    },
+                    {
+                        "from": "Mainfiles/base.cpp",
+                        "to": "src/main.cpp"
                     }
-                ],
-                "open": [
-                    "blank.txt"
                 ]
-            },
-            "command": "echo Hello world!",
-            "environment": [
-                {
-                    "id": "author",
-                    "title": "Author",
-                    "description": "Enter your name here",
-                    "default": "Me"
-                }
-            ]
+            }
         }
     ]
 }

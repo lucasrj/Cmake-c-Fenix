@@ -1,0 +1,9 @@
+cmake_minimum_required(VERSION 2.8)
+project(wxWidgetsProject)
+
+file(GLOB_RECURSE SRC_FILES
+    *.cpp
+    *.h
+)
+
+add_executable(${PROJECT_NAME} ${SRC_FILES})
