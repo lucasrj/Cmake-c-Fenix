@@ -1,6 +1,6 @@
 {   
     "author": "lucasrj",
-    "repoName": "My new Fenix repository!",
+    "repoName": "c++",
     "repoUrl": "https://raw.githubusercontent.com/lucasrj/Cmake-c-Fenix/master/",
     "version": 1.0,
     "templates": [
@@ -14,6 +14,7 @@
                 "src",
                 "build"
             ],
+            "img": "https://upload.wikimedia.org/wikipedia/commons/1/18/ISO_C%2B%2B_Logo.svg",
             "files": {
                 "download": [
                     {
@@ -41,6 +42,7 @@
                 "src",
                 "build"
             ],
+            "img": "https://upload.wikimedia.org/wikipedia/commons/1/18/ISO_C%2B%2B_Logo.svg",
             "files": {
                 "download": [
                     {
