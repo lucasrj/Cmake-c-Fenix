@@ -6,4 +6,5 @@ IMPLEMENT_APP(MyApp);
 bool MyApp::OnInit()
 {
 
+  return true;
 };
