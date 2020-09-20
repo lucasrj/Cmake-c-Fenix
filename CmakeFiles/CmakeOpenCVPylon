@@ -16,4 +16,5 @@ file(GLOB_RECURSE SRC_FILES
 )
 
 add_executable(${PROJECT_NAME} ${SRC_FILES})
+set ( CMAKE_CXX_FLAGS "-no-pie" )
 target_link_libraries(${PROJECT_NAME} ${OpenCV_LIBS} ${Pylon_LIBRARIES})
