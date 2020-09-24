@@ -81,6 +81,30 @@
             }
         },
         {
+            "id": "C++ Cmake with mysql and UR rtde",
+            "displayName": "C++ Cmake w/mysql and UR rtde",
+            "language": "c++",
+            "description": "makes a c++ Cmake project",
+            "category": ["Programming"],
+            "directories": [
+                "src",
+                "build"
+            ],
+            "img": "https://upload.wikimedia.org/wikipedia/commons/1/18/ISO_C%2B%2B_Logo.svg",
+            "files": {
+                "download": [
+                    {
+                        "from": "CmakeFiles/cmakeMysqlUrRtde",
+                        "to": "src/CMakeLists.txt"
+                    },
+                    {
+                        "from": "Mainfiles/base.cpp",
+                        "to": "src/main.cpp"
+                    }
+                ]
+            }
+        },
+        {
             "id": "C++ Cmake with OpenCV and pylon",
             "displayName": "C++ Cmake w/OpenCV and Pylon",
             "language": "c++",
