@@ -9,7 +9,11 @@
 
 set(PYLON_ROOT $ENV{PYLON_ROOT})
 if (NOT DEFINED ENV{PYLON_ROOT})
-    set(PYLON_ROOT "/opt/pylon5")
+    if(EXISTS "/opt/pylon5")
+        set(PYLON_ROOT "/opt/pylon5")
+    else()
+        set(PYLON_ROOT "/opt/pylon")
+    endif()
 endif()
 
 set(_PYLON_CONFIG "${PYLON_ROOT}/bin/pylon-config")
