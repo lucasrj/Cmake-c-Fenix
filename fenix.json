@@ -183,7 +183,7 @@
                     "default": "class"
                 }
             ]
-        }
+        },
         {
             "id": "C++ opencv class",
             "displayName": "C++ opencv class",
