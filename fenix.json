@@ -167,11 +167,11 @@
                 "download": [
                     {
                         "from": "class/defaultClass.cpp",
-                        "to": "src/class.cpp"
+                        "to": "src/<$ fnx.render('class') $>.cpp"
                     },
                     {
                         "from": "class/defaultClass.h",
-                        "to": "src/class.h"
+                        "to": "src/<$ fnx.render('class') $>.h"
                     }
                 ]
             },
