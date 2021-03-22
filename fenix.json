@@ -33,6 +33,30 @@
             }
         },
         {
+            "id": "C++ Cmake Wiring Pi",
+            "displayName": "C++ Cmake Wiring Pi",
+            "language": "c++",
+            "description": "makes a c++ Cmake project wiht Wiring Pi",
+            "category": ["Programming"],
+            "directories": [
+                "src",
+                "build"
+            ],
+            "img": "https://raw.githubusercontent.com/lucasrj/Cmake-c-Fenix/master/photots/pic++.png",
+            "files": {
+                "download": [
+                    {
+                        "from": "CmakeFiles/cmakeWiringPi.txt",
+                        "to": "src/CMakeLists.txt"
+                    },
+                    {
+                        "from": "Mainfiles/wiringPi.cpp",
+                        "to": "src/main.cpp"
+                    }
+                ]
+            }
+        },
+        {
             "id": "C++ Cmake",
             "displayName": "C++ Cmake",
             "language": "c++",
