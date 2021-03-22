@@ -37,7 +37,7 @@
             "displayName": "C++ Cmake Wiring Pi",
             "language": "c++",
             "description": "makes a c++ Cmake project wiht Wiring Pi",
-            "category": ["Programming","raspberry pi"],
+            "category": ["raspberry pi"],
             "directories": [
                 "src",
                 "build"
