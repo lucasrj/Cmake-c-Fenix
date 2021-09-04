@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 2.8)
-project(wxWidgetsProject)
+project(exe)
 
 file(GLOB_RECURSE SRC_FILES
     *.cpp
